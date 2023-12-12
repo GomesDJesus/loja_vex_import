@@ -1,0 +1,112 @@
+
+
+body{
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+#cabecalho{
+    background-color: #fff;
+}
+
+
+#cabecalho ul li a{
+    color: black;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #262626;
+    color:#fff;
+}
+
+
+
+h2, h5, h3{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.bg-escuro{
+    background-color: #262626;
+    color: #fff;
+}
+
+.bg-azul{
+    background-color: #0D6EFD;
+}
+
+.p{
+    background-color: #fff;
+    max-width: 45%;
+    border-radius: 0px 3rem;
+}
+
+
+
+.info_facilidades{
+    border-top-left-radius: 4rem;
+    background-color: #080909;
+    border-bottom-right-radius: 4rem;
+}
+
+
+
+.info-unidades{
+    background-color:  #0D6EFD;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: inset -4px -5px 0px 3px #00000066;
+}
+
+.info-unidades a{
+    color: #fff;
+}
+
+textarea{
+    resize: none;
+    
+}
+
+
+
+ul li{
+    list-style: none;
+    
+}
+
+.bg-redes{
+    background-image: linear-gradient(to right, #30cfd040 0%, #0D6EFD 100%);
+}
+
+
+  
+
+  @media (max-width: 500px){
+    .card-sm{
+        border-top-left-radius: 4rem;
+    background-color: #080909;
+    border-bottom-right-radius: 4rem;
+    color: #fff;
+    }
+
+    .info_facilidades:last-child{
+        background-color: #0D6EFD;
+        color: #fff;
+    }
+
+    .info-unidades{
+        margin-top: 20px;
+    }
+
+    #contato h3{
+        margin-top: 20px;
+    }
+    
+    }
+
+@media(min-width: 501px )and (max-width: 1180px){
+    #lojas img{
+        height: 100%;
+    }
+
+  
+}
+  
